@@ -1,0 +1,66 @@
+/* .flex-blackjack-row-2  */
+/* .flex-blackjack-row-3 */
+
+
+
+.container-5{
+    border: 1px solid rgb(38, 35, 35);
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    border: 1px solid rgb(3, 3, 3);
+
+
+}
+.flex-blackjack-row-1
+{
+    background:linear-gradient(rgba(6, 143, 38, 0.626),rgba(2, 242, 182, 0.655)), url('../images/blackjack.jpg');
+    color: rgb(251, 251, 251);
+    
+}
+.flex-blackjack-row-2{
+    background:linear-gradient(rgba(6, 143, 38, 0.96),rgb(2, 242, 182));
+    color: rgb(251, 251, 251);
+}
+
+.flex-blackjack-row-1 div{
+    border: 2px solid rgb(255, 225, 90);
+    padding: 10px;
+    margin: 5px;
+    flex: 1;
+    height: 420px;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+.flex-blackjack-row-2 div{
+    border: 1px solid rgb(3, 3, 3);
+    padding: 10px;
+
+}
+table,th,td{
+    padding: 5px;
+    border: 1px solid rgb(3, 3, 3);
+
+}
+
+.flex-blackjack-row-2 button{
+    border: 1px solid rgb(3, 3, 3);
+    padding: 10px;
+
+}
+
+
